@@ -4,7 +4,8 @@
     
     <div id="notes-list">
         <div id="notes-list-header" class="header">
-            <span class="left">My Blog</span>
+		
+            <span class="left">Create Blog...</span>
             <span class="right"><a href="index.php?action=new"><img src="images/CreateNote.png" alt="Create new note."></a></span>
         </div>
         {foreach from=$notes item=note}
@@ -16,9 +17,12 @@
     </div>
 
     <div id="notepad">
+	<div id="note" class="header">
+	<span class=""><a href="registration.php" target="_blank">registration</a></span>
+	</div>
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
-            <span class="right"><a href="contact.php" target="_blank">Contact Blogger</a></span>
+            <span class="right"><a href="contact.php" target="_blank">Contact Admin</a></span>
         </div>
         <div>
             {foreach from=$notes item=note}
