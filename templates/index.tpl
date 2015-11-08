@@ -4,7 +4,7 @@
     
     <div id="notes-list">
         <div id="notes-list-header" class="header">
-            <span class="left">miNotes</span>
+            <span class="left">My Blog</span>
             <span class="right"><a href="index.php?action=new"><img src="images/CreateNote.png" alt="Create new note."></a></span>
         </div>
         {foreach from=$notes item=note}
@@ -14,11 +14,12 @@
             </div>      
         {/foreach}
     </div>
-    
+</div>
+<div id="my">    
     <div id="notepad">
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
-            <span class="right">Fname Lname</span>
+            <span class="right">Ankur Jaiswal</span>
         </div>
         <div>
             {foreach from=$notes item=note}
