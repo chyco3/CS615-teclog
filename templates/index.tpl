@@ -14,7 +14,8 @@
             </div>      
         {/foreach}
     </div>
-  
+</div>
+</div id="m">  
     <div id="notepad">
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
