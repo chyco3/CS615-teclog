@@ -22,7 +22,7 @@
 
     <div id="notepad">
 	<div id="note" class="header">
-	<span class="Left"><a href="registration.php" target="_blank">registration</a></span>
+	<span class="Left"><a href="registration.php" target="_blank">For Registration</a></span>
 	<span class="right"><a href="contact.php" target="_blank">Contact Admin</a></span>
 	</div>
         <div id="notepad-header" class="header">
