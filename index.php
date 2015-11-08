@@ -4,7 +4,6 @@ ini_set('display_errors', 'On');
 
 require_once "lib/Smarty.class.php";
 require_once "database.php";
-
 //connect to our db
 $db = new Db();
 
