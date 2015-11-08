@@ -1,28 +1,25 @@
 <html>
 <head>
-    <title>{$title} - {$Name}</title>
-    <link rel="stylesheet" lang="text/css" href="styles.css"/>
-	
+<title>---</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="stylesheader.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demoheader.css" media="all" />
 </head>
 <body>
-<div id="header">
-				<div class="header-inner">
-					<!-- Begin Shell -->
-					<div class="shell">
-						<h1 id="logo"><a class="notext" href="#">World of TShirts</a></h1>
-						<!-- Begin Navigation -->
-						<div id="navigation">
-							<ul>
-								<li><a href="#" title="Home Page"><span>Home</span></a></li>
-								<li><a href="#" title="Support Page"><span>Support</span></a></li>
-								</ul>
-							<div class="cl">&nbsp;</div>
-						</div>
-						<!-- End Navigation -->
-						<div class="cl">&nbsp;</div>
-					</div>
-					<!-- End Shell -->
-				</div>
-			</div>
-			</body>
+<div class="container">
+			<header>
+				<h1><span>Welcome To My Blog</h1>
+            </header>
+    <div align="center" style="padding-left:25px;">        
+      <ul id="nav" align="center">
+        <li class="current"><a href="#" title="Home" >Home</a></li>
+  		<li><a href="http://www.freshdesignweb.com/" >About Us</a></li>
+  		<li align="right"><a href="http://www.freshdesignweb.com/" >Contact</a></li>
+      </ul>
+    </div>  
+</div>
+
+</body>
 </html>
