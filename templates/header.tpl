@@ -3,38 +3,25 @@
     <title>{$title} - {$Name}</title>
     <link rel="stylesheet" lang="text/css" href="styles.css"/>
 </head>
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Welcome To My Blog</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                     <li class="page-scroll">
-                        <a href="#about">About Me</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-	</body>
+<body>
+<div id="header">
+				<div class="header-inner">
+					<!-- Begin Shell -->
+					<div class="shell">
+						<h1 id="logo"><a class="notext" href="#">World of TShirts</a></h1>
+						<!-- Begin Navigation -->
+						<div id="navigation">
+							<ul>
+								<li><a href="#" title="Home Page"><span>Home</span></a></li>
+								<li><a href="#" title="Support Page"><span>Support</span></a></li>
+								</ul>
+							<div class="cl">&nbsp;</div>
+						</div>
+						<!-- End Navigation -->
+						<div class="cl">&nbsp;</div>
+					</div>
+					<!-- End Shell -->
+				</div>
+			</div>
+			</body>
 </html>
