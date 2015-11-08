@@ -29,12 +29,9 @@
    padding:5px;	 	 
 }
 </style>
+<div id="header">
+<h1>Welcome To My Blog</h1>
+</div>
+
 </head>
 <body>
-
-<div id="header">
-<h1>City Gallery</h1>
-</div>
->
-</body>
-</html>
