@@ -3,6 +3,10 @@
 <div id="container">
     
     <div id="notes-list">
+	<div id="note" class="header">
+	<span>Welcome to Blog App</a></span>
+	
+	</div>
         <div id="notes-list-header" class="header">
 		
             <span class="left">Create Blog...</span>
@@ -18,11 +22,12 @@
 
     <div id="notepad">
 	<div id="note" class="header">
-	<span class=""><a href="registration.php" target="_blank">registration</a></span>
+	<span class="Left"><a href="registration.php" target="_blank">registration</a></span>
+	<span class="right"><a href="contact.php" target="_blank">Contact Admin</a></span>
 	</div>
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
-            <span class="right"><a href="contact.php" target="_blank">Contact Admin</a></span>
+            
         </div>
         <div>
             {foreach from=$notes item=note}
