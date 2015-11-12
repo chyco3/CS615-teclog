@@ -27,9 +27,6 @@
 	</div>
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
-			<span class="right">
-			<script src="http://www.clocklink.com/embed.js"></script> <script type="text/javascript" language="JavaScript">obj=new Object;obj.clockfile="5012-black.swf";obj.TimeZone="Ireland_Dublin"; obj.width=227;obj.height=75;obj.wmode="transparent";showClock(obj);</script>
-			</script>
             
         </div>
         <div>
